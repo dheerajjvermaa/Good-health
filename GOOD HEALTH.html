@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>'GOOD HEALTH and WELL BEING</title>
+	<script src="jquery3.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('ul.nav').slideToggle();
+			$('.icon').click(function(){
+				$('.icon').delay(1000).toggleClass('back');
+				$('ul.nav').slideToggle(1000);
+			});
+		});
+	</script>
+	<style type="text/css">
+		@font-face { font-family: Comforta;
+					 src: url(Comfortaa-Regular.ttf);
+					}
+		@font-face { font-family: Kodchasan;
+					 src: url(Kodchasan-Bold.ttf);
+					}
+		body{ margin:0; background-color: #fefefa; letter-spacing: 5px; word-spacing: 10px; -moz-user-select: none; -webkit-user-select: none; font-family: 'Comforta',sans-serif;}
+		#one{ background-image: url('back.jpg'); background-size: cover; padding: 30px; padding-top: 15%; padding-bottom: 15%;  background-attachment: fixed; border: 1px solid black; font-size: 150px; color: ghostwhite; text-shadow: 2px 3px 3px black; letter-spacing: 25px; word-spacing: 10px; font-family:'Kodchasan',sans-serif; text-align: center; white-space: nowrap; } 
+		.t{ color: orange; display: inline; }
+		#two{ background-image: url('asphalt.jpg'); background-position: center; background-size: cover; background-attachment: fixed; border: 1px solid black; }
+		.black{  padding: 20%; padding-top: 15%; color: whitesmoke; background-color: rgb(0, 0, 0.4, 0.5); padding-bottom: 15%; font-size: 22px; }
+		#three{ background-image: url('diet.jpg'); background-position: center; background-size: cover; background-attachment: fixed; border: 1px solid black; }
+		#four{ background-image: url('adult.jpg'); background-position: center; background-size: cover;background-attachment: fixed; border: 1px solid black; }
+		.quote{  padding: 15%; font-size: 30px; color: #404040; text-shadow: 0px 2px 3px black;}
+		div.nav{  margin: 30px; display: block; position: fixed; bottom: :0; right: 0; top: 0; text-align: right; }
+		ul.nav{   list-style-type: none;}
+		li.nav{ background-color: ivory; border: 2px solid grey; padding: 30px; }
+		li.nav:hover{ background-color: #303030; color: ivory;}
+		.icon{ color: #696969; font-size: 30px; margin: 0; padding: 10px; }
+		.back{ background-color: #303030; }
+		.slin{ border: 4px solid ghostwhite; background-color: rgb(0, 0, 0, 0.3); border-bottom: 4px dashed ghostwhite; margin: 50px; padding: 20px; font-size: 27px; cursor: pointer; }
+		.slin:hover{ color: black; background-color: ghostwhite;}
+	</style>
+</head>
+<body>
+<div class="nav">
+	<div class="icon"><img src="menu.png"></div>
+	<ul class="nav">
+		<li class="nav">HOME</li>
+		<li class="nav">NEED</li>
+		<li class="nav">BENEFIT</li>
+		<li class="nav">SOCIAL</li>
+</div>	
+<div id="one">
+	<div class="onet">	GOOD<br><p class="t"> H</p>EALTH<br></div>
+	</div>
+
+<div class="quote">
+	'Take Care Of Your Body Its The Only Place You Have to Live In.'
+</div>
+
+<div id="two">
+	<div class="black">
+		<center><h1 style="font-size: 80px;">Need For A Healthy Life</h1></center>
+		<ul>
+			<li>A Healthy life opens door for new opportunities.<br></li>
+			<li>Health is crucial factor in many Fields of Life.<br></li>
+			<li>It makes you physically fit and keeps several health issues at bay.<br></li>
+			<li>It renders a positive outlook.<br></li>
+			<li>It brings us closer to our family and loved ones.<br></li>
+		</ul>
+	</div>
+</div>
+<div class="quote">
+	'Health Is Not Valued Till Sickness Comes In.'
+</div>
+<div id="three">
+<div class="black">
+	<h1 style="font-size: 60px;">BENEFITS</h1>
+		<ul>
+			<li>A Well Postured Body brings out the Charm inside Of You.<br></li>
+			<li>It Helps a person to Live to The fullest.<br></li>
+			<li>A Healthy Lifestyle Leads to better relations.<br></li>
+			<li>It Gives us Strength to handle Critical Situations.<br></li>
+			<li>A Good Health Brings Out the best From us.<br></li>
+		</ul>
+</div>
+</div>
+<div class="quote">
+	'Early to bed Early to Rise Makes a Man Healthy , Wealthy And Wise.'
+	<br><p style="float: right; color: coral;">-Benjamin Franklin.</p>
+</div>
+<div id="four">
+<div class="black">
+	<h1 style="font-size: 60px;">CHECK THESE OUT</h1>
+	<div class="slin">FOLLOW THE INSTAGRAM HASHTAG</div>
+	<div class="slin">SEE HOW FACEBOOK PROMOTES HEALTH AND WELL BEING</div>
+	<div class="slin">THE PRIME MINISTER'S WORDS ON A HEALTHY LIFE</div>
+	<div class="slin">FOR MORE INFORMATION VISIT THE OFFICIAL W.H.O. SITE</div>
+</div>
+</div>
+<div id="cred">A Project By Pratham Sharma.</div>
+</body>
+</html>
